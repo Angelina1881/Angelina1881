@@ -46,9 +46,4 @@ Soft skills:
 
 ### Технологии
 <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a><a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg" width="36" height="36" alt="Photoshop" /></a><a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
-</p>орзины список пользователей с корзинами, неактивными более N часов → формирует событие «Неактивная корзина» → публикует в Брокер →      далее как в п.2.
-3. Рекламные пуши (утро/вечер, будни)
-   Планировщик по расписанию (утро, вечер, будние дни) → запрашивает у Сервиса рекомендаций персональные предложения для пользователей → формирует событие «Рекламный пуш» → публикует в Брокер → Сервис
-   уведомлений обрабатывает событие, получает токены, отправляет пуш.
-Все события проходят через единый брокер, что обеспечивает асинхронность, отказоустойчивость и возможность легко добавлять новые типы пушей без изменения существующих микросервисов.
-      
+</p>
